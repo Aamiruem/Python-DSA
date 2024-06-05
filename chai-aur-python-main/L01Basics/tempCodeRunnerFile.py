@@ -4,4 +4,10 @@ print("chai aur python code")
 #     print(n)
     
 
-# chai(10)
+# chai("lemon tea")
+
+# chai_one = "lemon tea"
+# chai_two = "ginger tea"
+# chai_three = "masala tea"
+
+
