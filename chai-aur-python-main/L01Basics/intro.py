@@ -13,7 +13,5 @@
 
 
 
-import hello_chai
+import hello_chai # type: ignore
 hello_chai.chai("mint tea")
-
-
