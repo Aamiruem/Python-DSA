@@ -106,3 +106,8 @@ print(chai)
 chai = r"c:\user\pwd"
 
 print(chai)
+
+
+chai = 'c:\\user\\pwd'
+
+print(chai)
