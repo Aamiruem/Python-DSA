@@ -1,4 +1,4 @@
-score = 185
+score = float(input("Enter your marks only one Subject "))
 
 if score >= 101:
     print("Please verify your grade again")
