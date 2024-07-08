@@ -1,4 +1,4 @@
-number = 5
+number = int(input("Enter number"))
 factorial = 1
 
 while number > 0:
