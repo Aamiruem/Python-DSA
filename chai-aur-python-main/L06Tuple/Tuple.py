@@ -32,8 +32,12 @@ if "Green" in all_tea:
     print("I have green tea")
 
 more_tea = ("Herbal", "Earl Grey", "Herbal")
-    more tea
+print(more_tea)
 ('Herbal', 'Earl Grey', 'Herbal')
 more_tea.count("Herbal")
 2
 more_tea.count("Herb")
+
+
+print(type(tea_types)) 
+
