@@ -1,7 +1,7 @@
 username = "chaiaurcode"
 
 def func():
-    # username = "chai"
+    username = "chai"
     print(username)
 
 print(username)
@@ -9,21 +9,23 @@ func()
 
 
 x = 99 
-# def func2(y):
-#     z = x + y
-#     return z
+def func2(y):
+    z = x + y
+    return z
 
-# result = func2(1)
-# print(result)
+result = func2(1)
+print(result)
 
-# def func3():
-#     global x
-#     x = 12
+def func3():
+    global x
+    x = 12
     
-# func3()
-# print(x)
+func3()
+print(x)
 
 
+
+# next example
 
 def f1():
     x = 88
@@ -34,6 +36,8 @@ myResult = f1()
 myResult()
 
 
+
+# other
 def chaicoder(num):
     def actual(x):
         return x ** num
@@ -46,3 +50,6 @@ g = chaicoder(3)
 
 print(f(3))
 print(g(3))
+
+
+# scope =>
