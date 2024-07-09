@@ -23,8 +23,11 @@ class Car:
     def model(self):
         return self.__model
     
+    
 
 
+
+# Inheritance
 class ElectricCar(Car):
     def __init__(self, brand, model, battery_size):
         super().__init__(brand, model)
@@ -34,13 +37,17 @@ class ElectricCar(Car):
         return "Electric charge"
 
 
-# my_tesla = ElectricCar("Tesla", "Model S", "85kWh")
+my_tesla = ElectricCar("Tesla", "Model S", "85kWh")
+print(my_tesla.get_brand())
 
-# print(isinstance(my_tesla, Car))
-# print(isinstance(my_tesla, ElectricCar))
 
-# print(my_tesla.__brand)
-# print(my_tesla.fuel_type())
+
+# Encapsulation
+print(isinstance(my_tesla, Car))
+print(isinstance(my_tesla, ElectricCar))
+
+print(my_tesla.__brand)
+print(my_tesla.fuel_type())
 
 # my_car = Car("Tata", "Safari")
 # my_car.model = "City"
